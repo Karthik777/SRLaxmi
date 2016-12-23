@@ -1,0 +1,90 @@
+<template name="container">
+    <div id="page-wrapper">
+        <!-- Header -->
+        {{> header}}
+        <!-- Menu -->
+        {{> menu}}
+        <!-- Banner -->
+        <!--
+            Note: If you'd like to use a video as your banner background, set the "data-video" attribute below
+            to the full filename of your video, but *exclude* the file extension. The template will automatically
+            generate a multi-format* <video> tag on platforms that support background videos, and simply skip the
+            step on those that don't (falling back on whatever you've set as the background image).
+
+            * Your video must be offered in both .mp4 and .webm formats to work everywhere.
+        -->
+        {{> banner}}
+        <!--<video id="example_video_1" class="video-js vjs-default-skin"-->
+               <!--controls preload="auto" width="640" height="264" autoplay-->
+               <!--poster="http://video-js.zencoder.com/oceans-clip.png"-->
+               <!--data-setup='{"example_option":true}'>-->
+            <!--<source src="images/banner.mp4" type='video/mp4' />-->
+            <!--<source src="images/banner.webm" type='video/webm' />-->
+            <!--<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>-->
+        <!--</video>-->
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- One -->
+            {{> section id="one" style="style1" imgsrc="images/match.jpg" alt="picture for Match Making" title="Match Making"
+            content="Finding the one, is one of the most important personal milestones. We can guide and help you realise it."
+             }}
+
+            <!-- Two -->
+            {{> section id="two" style="alt style2" imgsrc="images/corporate.jpeg" alt="Corporate Astrology" title="Corporate Astrology"
+                content="Another interesting facet to his skill is reading the future of companies, based on factual data such as date of incorporation, etc. This proves to be a boon to corporate leaders, especially when they require to vet important decisions such as appointment of key executives, mergers and acquiisiitions"}}
+
+            <!-- Three -->
+            {{> section id="three" style="style3" imgsrc="images/vaastu.png" alt="Vaastu" title="Vaastu"
+                    content="Where you live, makes a huge impact not only on your health, but also on your psyche. We can help you find the right place and help you make small modifications that makes your life peaceful and happy."}}
+
+            <!-- Four -->
+            <section id="four" class="main special">
+                <div class="inner">
+                    <header>
+                        <h2>Specialties</h2>
+                    </header>
+                    <div class="features">
+                        <section>
+                            <span class="icon major fa-diamond style1"></span>
+                            <h3>Gemology</h3>
+                            <p>Consequat turpis venenatis varius lorem sed dictum ipsum amet pellentesque fusce hendrerit consectetur risus, sed eget semper nunc.</p>
+                        </section>
+                        <section>
+                            <span class="icon major fa-heartbeat style2"></span>
+                            <h3>Medical Astrology</h3>
+                            <p>Consequat turpis venenatis varius lorem sed dictum ipsum amet pellentesque fusce hendrerit consectetur risus, sed eget semper nunc.</p>
+                        </section>
+                        <section>
+                            <span class="icon major fa-sort-numeric-asc style3"></span>
+                            <h3>Numerology</h3>
+                            <p>Consequat turpis venenatis varius lorem sed dictum ipsum amet pellentesque fusce hendrerit consectetur risus, sed eget semper nunc.</p>
+                        </section>
+                        <section>
+                            <span class="icon major fa-lemon-o style4"></span>
+                            <h3>Prasna</h3>
+                            <p>Consequat turpis venenatis varius lorem sed dictum ipsum amet pellentesque fusce hendrerit consectetur risus, sed eget semper nunc.</p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section id="cta" class="main special">
+                <div class="inner">
+                    <p>Sed varius suspendisse dictum leo ipsum amet pellentesque<br />
+                        fusce ac hendrerit consectetur tempor lorem ipsum.</p>
+                    <ul class="actions vertical">
+                        <li><a href="#" class="button special big">Get Started</a></li>
+                        <li><a href="#" class="button big">Learn More</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        {{> footer}}
+
+    </div>
+</template>
