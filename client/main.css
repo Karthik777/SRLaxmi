@@ -3003,6 +3003,22 @@ table.alt tbody tr td {
     opacity: 0;
 }
 
+span.chennai{
+    background:url("assets/icons/chennai.jpg") no-repeat;
+    background-size:contain;
+    margin:auto!important;
+    height:100px;
+    width: 100px;
+}
+
+span.bangalore{
+    background:url("assets/icons/bangalore.png") no-repeat;
+    background-size:contain;
+    margin:auto!important;
+    height:100px;
+    width: 100px;
+}
+
 @media screen and (max-width: 980px) {
 
     .features > * {

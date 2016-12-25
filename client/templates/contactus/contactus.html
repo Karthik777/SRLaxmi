@@ -1,0 +1,44 @@
+<template name="contactus">
+    <section id="cta" class="main special">
+        <header><h2>Contact Us</h2></header>
+        <div class="inner">
+            <form>
+                <div class="row uniform">
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="name" id="name" value="" placeholder="Name" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="email" name="email" id="email" value="" placeholder="Email" />
+                    </div>
+                    <!-- Break -->
+                    <div class="12u$">
+                        <div class="select-wrapper">
+                            <select name="category" id="category">
+                                <option value="">- Category -</option>
+                                <option value="Match Making">MatchMaking</option>
+                                <option value="General Wellbeing">General</option>
+                                <option value="Medical Astrology">Medical</option>
+                                <option value="Corporate Astrology">Corporate</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Break -->
+                    <div class="12u$">
+                        <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+                    </div>
+                    <!-- Break -->
+                    <div class="12u$">
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="special" /></li>
+                            <li><input type="reset" value="Reset" /></li>
+                        </ul>
+                    </div>
+                    <div class="12u$">
+                        <label name="mailresult" id="mailresult" class="mailresult"></label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</template>
