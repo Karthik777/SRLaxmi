@@ -3543,10 +3543,8 @@ body.is-menu-visible #menu {
 
 #banner video {
     position: absolute;
-    bottom: 50%;
-    right: 50%;
-    width: auto;
-    height: auto;
+    width: auto!important;
+    height: auto!important;
     min-width: 100%;
     min-height: 100%;
     overflow: hidden;
