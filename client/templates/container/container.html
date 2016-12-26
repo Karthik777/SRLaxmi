@@ -1,9 +1,5 @@
 <template name="container">
     <div id="page-wrapper">
-        <!-- Header -->
-        {{> header}}
-        <!-- Menu -->
-        {{> menu}}
         <!-- Banner -->
         <!--
             Note: If you'd like to use a video as your banner background, set the "data-video" attribute below
@@ -24,7 +20,6 @@
         <!--</video>-->
         <!-- Wrapper -->
         <div id="wrapper">
-
             <!-- One -->
             {{> section id="one" style="style1" imgsrc="images/match.jpg" alt="picture for Match Making" title="Match Making"
             content="Finding the one, is one of the most important personal milestones. We can guide and help you realise it."
@@ -40,23 +35,9 @@
 
             <!-- Four -->
             {{> specialties}}
+
             {{> contactdetails}}
-            <!-- CTA -->
-            <!--<section id="cta" class="main special">-->
-                <!--<div class="inner">-->
-                    <!--<p>Sed varius suspendisse dictum leo ipsum amet pellentesque<br />-->
-                        <!--fusce ac hendrerit consectetur tempor lorem ipsum.</p>-->
-                    <!--<ul class="actions vertical">-->
-                        <!--<li><a href="#" class="button special big">Get Started</a></li>-->
-                        <!--<li><a href="#" class="button big">Learn More</a></li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</section>-->
             {{> contactus}}
         </div>
-
-        <!-- Footer -->
-        {{> footer}}
-
     </div>
 </template>

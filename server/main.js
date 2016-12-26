@@ -23,5 +23,5 @@ Meteor.startup(() => {
   // code to run on server at startup
 
     process.env.MAIL_URL = 'smtp://' + encodeURIComponent(Meteor.settings.username) + ':' + encodeURIComponent(Meteor.settings.password) + '@' + encodeURIComponent("smtp.gmail.com") + ':' + '465';
-    console.log(process.env.MAIL_URL);
+
 });

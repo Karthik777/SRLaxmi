@@ -1,9 +1,10 @@
 <template name="header">
     <header id="header">
-        <a href="main.html" class="logo">AngalaParameshwari ForeCasting Centre</a>
+        <a href="{{pathFor route='home'}}" class="logo">AngalaParameshwari ForeCasting Centre</a>
         <nav>
             <ul>
-                <li><a href="#menu">Menu</a></li>
+                <!--<li><a href="#menu">Menu</a></li> -->
+                <li><a href="{{pathFor route='about'}}">About Us</a></li>
             </ul>
         </nav>
     </header>
